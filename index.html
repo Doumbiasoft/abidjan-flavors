@@ -6,11 +6,220 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="./styles/app.css">
-    <title>Abidjan Flavors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <title>Ivory Flavors</title>
+    <style>
+        .card-title {
+            color: #f8a444 !important;
+        }
+
+        .title {
+            color: #f8a444 !important;
+        }
+
+        .nav-item a {
+            font-size: 80%;
+            color: white !important;
+        }
+    </style>
 </head>
 
-<body>
+<body class="bg-body-tertiary">
+    <nav class="sticky-top navbar navbar-expand-sm navbar-dark bg-black ">
+        <div class="container">
+            <a class="navbar-brand" href="javascript:void(0)" style="display: flex; align-items: center;">
+                <div class="logo-anim"
+                    style="display: flex; align-items: center;justify-content: center; height: 40px; width: 40px; background-color: #f8a444; border-radius: 100%;">
+                    <span style="font-weight: bold;">IF</span>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: start; margin-left: 10px;">
+                    <span style="margin: 0px;text-transform: uppercase; font-size: 70%;font-weight: bold;">Ivory
+                        Flavors</span>
+                    <span style="font-size: 45%; color: #f8a444;margin: 0px;margin-top: -5px;">The Ivorian dishes
+                        you
+                        must try</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-utensils"></i>&nbsp;Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-star"></i>&nbsp;Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-phone"></i>&nbsp;Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/Kedjenou4-scaled.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/Kedjenou4-scaled.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/Kedjenou4-scaled.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <div>
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon car-nav" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon car-nav" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container mt-5 justify-content-center">
+        <h1 class="text-center">Our Specialties</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <div class="col">
+                <div class="card h-100 text-light app-second-color">
+                    <img src="./images/icon-abidjan-flavors.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="special-offer"><i class="fa-solid fa-tag text-white"></i>Special offer 20% off</div>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-light app-second-color">
+                    <img src="./images/icon-abidjan-flavors.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="special-offer"><i class="fa-solid fa-tag text-white"></i>Special offer 20% off</div>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a short card.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-light app-second-color">
+                    <img src="./images/icon-abidjan-flavors.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="special-offer"><i class="fa-solid fa-tag text-white"></i>Special offer 20% off</div>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="text-center text-black mt-5">Our Story</h1>
+    <div class="container-fluid mt-5 text-dark justify-content-center" style="background-color: #f8a444;">
+        <div class="container">
+            <div>
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <div class="container py-5">
+                                <p>
+                                    Welcome to Ivory Flavors, where the rich culinary traditions of Côte d'Ivoire come
+                                    alive. Our
+                                    restaurant brings you the authentic taste of West African cuisine, prepared with
+                                    love
+                                    and
+                                    traditional
+                                    recipes passed down through generations.
+
+                                    From the bustling markets of Abidjan to your table, we source the finest ingredients
+                                    to
+                                    create
+                                    dishes
+                                    that tell the story of Ivorian culture. Every meal is a journey through the diverse
+                                    flavors that
+                                    make
+                                    Ivorian cuisine so special.
+
+                                    Experience the warmth of African hospitality and the bold, vibrant flavors that have
+                                    made our
+                                    cuisine
+                                    beloved worldwide.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  mb-5">
+                        <img src="./images/icon-abidjan-flavors.png" class="img-fluid" alt="...">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid app-second-color text-light">
+        <div class="container-fluid">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-md-5 mx-auto mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
+                                    class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
+                                    class="form-control" placeholder="Email address"> <button class="btn"
+                                    type="button">Subscribe</button> </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>© 2025 Ivory Flavors, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="javascript:void(0)"
+                                aria-label="Instagram"><i style="font-size: 1.5rem;"
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="javascript:void(0)"
+                                aria-label="Facebook"><i style="font-size: 1.5rem;"
+                                    class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,111 @@
+html,
+body {
+  background-color: black;
+  box-sizing: border-box;
+  font-size: 1.1rem !important;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+  font-size: 12px;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-item {
+  height: 50vh;
+  overflow: hidden;
+}
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.33) !important;
+  border-radius: 1em;
+}
+.car-nav {
+  background-color: rgba(0, 0, 0, 0.33) !important;
+}
+i {
+  font-size: large;
+  color: #f8a444 !important;
+}
+.app-second-color {
+  background-color: #141414 !important;
+}
+nav {
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.logo-anim {
+  font-weight: bold;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spicy-indicator {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff4444;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.special-offer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #f8a444;
+  color: black;
+  padding: 0.3rem 0.6rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  animation: bounce 2s ease-in-out infinite;
+}
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+.logo-anim:hover {
+  animation: spin 2s infinite;
+}
+.btn {
+  background-color: #f8a444 !important;
+}
