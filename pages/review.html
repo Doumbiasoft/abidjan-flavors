@@ -4,10 +4,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <title>Ivory Flavors - Review</title>
+    <style>
+        .card-title {
+            color: #f8a444 !important;
+        }
+
+        .title {
+            color: #f8a444 !important;
+        }
+
+        .nav-item a {
+            font-size: 90%;
+            color: white !important;
+        }
+    </style>
 </head>
 
-<body>
+<body class="bg-body-tertiary d-flex flex-column">
+    <nav class="sticky-top navbar navbar-expand-sm navbar-dark bg-black ">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html" style="display: flex; align-items: center;">
+                <div class="logo-anim"
+                    style="display: flex; align-items: center;justify-content: center; height: 40px; width: 40px; background-color: #f8a444; border-radius: 100%;">
+                    <span style="font-weight: bold;">IF</span>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: start; margin-left: 10px;">
+                    <span style="margin: 0px;text-transform: uppercase;font-weight: bold;">Ivory
+                        Flavors</span>
+                    <span style="font-size: 45%; color: #f8a444;margin: 0px;margin-top: -5px;">The Ivorian dishes
+                        you
+                        must try</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html"><i class="fa-solid fa-utensils"></i>&nbsp;Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./review.html"><i class="fa-solid fa-star"></i>&nbsp;Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html"><i class="fa-solid fa-phone"></i>&nbsp;Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 justify-content-center">
+        <h1 class="text-center">People Review</h1>
+
+        <div class="container mt-5 mb-5">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 app-second-color text-light">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+                                    alt="Customer" class="rounded-circle me-3"
+                                    style="width: 60px; height: 60px; object-fit: cover;">
+                                <div>
+                                    <h6 class="mb-0 title">Marcus Johnson</h6>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"Amazing authentic Ivorian cuisine! The Kedjenou was absolutely
+                                incredible - so flavorful and tender. The atmosphere is warm and welcoming. Definitely
+                                coming back!"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 app-second-color text-light">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=100&h=100&fit=crop&crop=face"
+                                    alt="Customer" class="rounded-circle me-3"
+                                    style="width: 60px; height: 60px; object-fit: cover;">
+                                <div>
+                                    <h6 class="mb-0 title">Sarah Williams</h6>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"First time trying West African food and I'm blown away! The Attieké
+                                with grilled fish was perfect. Great service and reasonable prices. Highly recommend!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 app-second-color text-light">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+                                    alt="Customer" class="rounded-circle me-3"
+                                    style="width: 60px; height: 60px; object-fit: cover;">
+                                <div>
+                                    <h6 class="mb-0 title">David Chen</h6>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"Loved the Alloco! The plantains were perfectly fried and the sauce was
+                                delicious. The staff was very helpful in explaining the dishes. Great experience
+                                overall."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 app-second-color text-light">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
+                                    alt="Customer" class="rounded-circle me-3"
+                                    style="width: 60px; height: 60px; object-fit: cover;">
+                                <div>
+                                    <h6 class="mb-0 title">Emily Rodriguez</h6>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"Exceptional food and service! The Fufu with soup was authentic and
+                                delicious. This place brings me back to my travels in West Africa. A hidden gem!"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 app-second-color text-light">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face"
+                                    alt="Customer" class="rounded-circle me-3"
+                                    style="width: 60px; height: 60px; object-fit: cover;">
+                                <div>
+                                    <h6 class="mb-0 title">Michael Thompson</h6>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"Great atmosphere and friendly staff. The food was flavorful and
+                                well-prepared. Perfect for trying something new. Will definitely be back with friends!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 app-second-color text-light">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face"
+                                    alt="Customer" class="rounded-circle me-3"
+                                    style="width: 60px; height: 60px; object-fit: cover;">
+                                <div>
+                                    <h6 class="mb-0 title">Lisa Anderson</h6>
+                                    <div class="text-warning">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text">"Outstanding culinary experience! Every dish was bursting with flavor.
+                                The traditional preparation methods really shine through. This is now my favorite
+                                restaurant!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid app-second-color text-light mt-auto">
+        <div class="container-fluid">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-md-5 mx-auto mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
+                                    class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
+                                    class="form-control" placeholder="Email address"> <button class="btn"
+                                    type="button">Subscribe</button> </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>© 2025 Ivory Flavors, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="javascript:void(0)"
+                                aria-label="Instagram"><i style="font-size: 1.5rem;"
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="javascript:void(0)"
+                                aria-label="Facebook"><i style="font-size: 1.5rem;"
+                                    class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
 
 </body>
 
