@@ -104,3 +104,28 @@ nav {
 .btn {
   background-color: #f8a444 !important;
 }
+
+.card img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Tablet view adjustments */
+@media (max-width: 991px) and (min-width: 768px) {
+  .card img {
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+/* Mobile view adjustments */
+@media (max-width: 767px) {
+  .card img {
+    width: 280px !important;
+    height: 280px !important;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
