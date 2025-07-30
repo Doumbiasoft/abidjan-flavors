@@ -110,22 +110,25 @@ nav {
   border-radius: 50%;
 }
 
-/* Tablet view adjustments */
+/* Web/Desktop */
+.container .row .col .card img {
+  max-width: 100% !important;
+  width: min(300px, 25vw) !important;
+  height: min(300px, 25vw) !important;
+}
+
+/* Tablet view */
 @media (max-width: 991px) and (min-width: 768px) {
-  .card img {
+  .container .row .col .card img {
     width: 180px !important;
     height: 180px !important;
-    object-fit: cover;
-    border-radius: 50%;
   }
 }
 
-/* Mobile view adjustments */
+/* Mobile view */
 @media (max-width: 767px) {
-  .card img {
-    width: 280px !important;
-    height: 280px !important;
-    object-fit: cover;
-    border-radius: 50%;
+  .container .row .col .card img {
+    width: min(280px, 70vw) !important;
+    height: min(280px, 70vw) !important;
   }
 }
