@@ -10,6 +10,8 @@ A modern, responsive restaurant website showcasing authentic Ivorian cuisine and
 
 Ivory Flavors is a restaurant website dedicated to bringing the rich culinary traditions of Côte d'Ivoire to life. The site features authentic West African dishes prepared with traditional recipes passed down through generations, from the bustling markets of Abidjan to your table.
 
+<img src="./images/ivory-flavors-thumbnail.png" alt="HTML Logo" >
+
 ## ✨ Features
 
 ### 🏠 Home Page
